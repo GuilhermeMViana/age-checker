@@ -45,5 +45,6 @@ function verificar() {
         }
         resultado.innerHTML = `Você é um(a) ${genero} de ${idade} anos.<br>`
         resultado.appendChild(img)
+        resultado.style.textAlign = 'center'
     }
 }

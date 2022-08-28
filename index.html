@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hora do Dia</title>
+    <title>Verificador de Idade</title>
 
-    <link rel="stylesheet" href="/Aula05ex1/style.css">
-    <script src="/Aula05ex2/main.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="main.js"></script>
 </head>
 
 <body>
@@ -16,7 +16,7 @@
         <h1>Verficador de idade</h1>
     </header>
     <section>
-        <div>
+        <div class="display">
             <p>
                 Ano de Nascimento:
                 <input type="number" name="anotxt" id="anotxt" min="1900">
@@ -29,7 +29,7 @@
                 <label for="feminino">Feminino</label>
             </p>
             <p>
-                <input type="button" value="Verificar" onclick="verificar()">
+                <input type="button" value="Verificar" onclick="verificar()" id="button-center">
             </p>
         </div>
         <div id="resultado">
